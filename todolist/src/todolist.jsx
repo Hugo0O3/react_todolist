@@ -4,7 +4,7 @@ function Todolist() {
     return (
         <>
             <h1>My Todo App</h1>
-            <form action="post">
+            <form action="#">
                 <input type="text" id="todo-input" name="todo" placeholder="Type a new todo" />
                 <br />
                 <button type="submit">Add Todo</button>
