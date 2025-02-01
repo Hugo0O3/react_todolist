@@ -2,4 +2,4 @@
 
 ## Un petit lien pour la magnifique todolist
 
-https://eclectic-beijinho-c3150f.netlify.app/
+[Visuel todolist](https://eclectic-beijinho-c3150f.netlify.app/)

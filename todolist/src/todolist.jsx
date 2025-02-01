@@ -10,9 +10,11 @@ function Todolist() {
                 <button type="submit">Add Todo</button>
             </form>
             <h2>Todos</h2>
-            <input type="checkbox" /><label for="learn"> Learn React!</label><br />
-            <input type="checkbox" /><label for="awesome"> Be awesome!</label><br />
-            <input type="checkbox" /><label for="fun"> Have fun les pioupious 🐤!</label>
+            <section>
+                <input type="checkbox" /><label for="learn"> Learn React!</label><br />
+                <input type="checkbox" /><label for="awesome"> Be awesome!</label><br />
+                <input type="checkbox" /><label for="fun"> Have fun les pioupious 🐤!</label>
+            </section>
         </>
     )
 }
