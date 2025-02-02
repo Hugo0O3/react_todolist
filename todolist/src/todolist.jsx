@@ -1,6 +1,11 @@
 import React from "react";
+import { useState } from "react";
 
 function Todolist() {
+    
+    const [todo, setTodo] = useState([])
+    const [todoInput, setTodoInput] = useState([])
+
     return (
         <>
             <h1>My Todo App</h1>
@@ -16,6 +21,7 @@ function Todolist() {
                 <input type="checkbox" /><label for="fun"> Have fun les pioupious 🐤!</label>
             </section>
         </>
+        
     )
 }
 
